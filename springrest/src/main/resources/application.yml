@@ -1,0 +1,9 @@
+
+spring:
+  application:
+    name:Spring Rest
+  data:
+    mongodb:
+      uri:mongodb+srv://shushant:grozam416@cluster0.lxfm4hj.mongodb.net/?retryWrites=true&w=majority
+      database:journaldb
+      auto-index-creation:true

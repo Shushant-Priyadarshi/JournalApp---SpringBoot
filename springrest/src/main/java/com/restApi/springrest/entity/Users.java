@@ -17,7 +17,7 @@ import java.util.List;
 public class Users {
 
     @Id
-    private ObjectId Id;
+    private ObjectId id;
 
     @Indexed(unique = true)
     @NonNull
@@ -28,5 +28,7 @@ public class Users {
 
     @DBRef
     private List<JournalEntry> journalEntries = new ArrayList<>();
+
+    private List<String> roles;
 
 }
